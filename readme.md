@@ -1,0 +1,1 @@
+Aqui estará o que eu estou aprendendo no curso de JavaScript.

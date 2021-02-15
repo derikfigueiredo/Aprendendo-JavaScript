@@ -22,7 +22,7 @@ let umaStringc = "Um texto"
 console.log(umaStringc.concat(' em', ' um', ' lindo dia.'));
 
 
-
+f
 /***********EM QUAL INDICE POSSUI A PALAVRA TEXTO */
 let umaStringd = "Um texto"
 console.log(umaStringd.indexOf('texto'));
@@ -41,3 +41,15 @@ console.log(umaStringf.search(/x/));
 /*******REPLACE */
 let umaStringg = "Um texto"
 console.log(umaStringg.charAt(7));
+
+
+/******* DESCOBRIR O TAMANHO DA STRING*/
+let umaStringh = "O rato roeu a roupa do rei de roma"
+
+console.log(umaStringh.length);
+
+/*** */
+let umaStringi = "O rato roeu a roupa do rei de roma.";
+
+console.log(umaStringi.slice(-3));
+console.log(umaStringi.slice(32));
